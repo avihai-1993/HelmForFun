@@ -2,5 +2,5 @@
 # values.yaml
 replicaCount: 1
 image:
-  repository: myaspapp
+  repository: localhost:5000/myaspapp
   tag: latest
