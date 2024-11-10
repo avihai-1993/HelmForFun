@@ -2,5 +2,5 @@
 # values.yaml
 replicaCount: 1
 image:
-  repository: nginx
+  repository: myaspapp
   tag: latest
