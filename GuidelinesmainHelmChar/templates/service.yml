@@ -1,1 +1,12 @@
 
+# templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "my-chart.fullname" . }}
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: {{ include "my-chart.name" . }}
