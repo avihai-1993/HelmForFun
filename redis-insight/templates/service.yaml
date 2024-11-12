@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: redis-insight
+  name: redisinsight-service
 spec:
   type: {{ .Values.service.type }}
   ports:
