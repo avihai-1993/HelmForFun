@@ -9,6 +9,12 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30066
+    nodePort: 30050
+  - port: 7124
+    targetPort: 7124
+    nodePort: 30051
+  - port: 29435
+    targetPort: 29435
+    nodePort: 30052 
   selector:
     app: {{ .Chart.Name }}
