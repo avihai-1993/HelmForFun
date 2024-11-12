@@ -1,1 +1,4 @@
 
+image:
+  repository: teranova1944/general:fastapiappswaggerdemo
+  tag: latest
