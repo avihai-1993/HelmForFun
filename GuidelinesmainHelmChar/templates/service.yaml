@@ -8,14 +8,17 @@ spec:
   type: NodePort 
   ports:
   - protocol: TCP
+    name: http
     port: 80
     targetPort: 80
     nodePort: 30050
   - protocol: TCP
+    name: https
     port: 7124
     targetPort: 7124
     nodePort: 30051
   - protocol: TCP
+    name: uniq
     port: 29435
     targetPort: 29435
     nodePort: 30052 
