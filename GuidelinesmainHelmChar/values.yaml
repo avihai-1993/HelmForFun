@@ -1,6 +1,5 @@
 
-# values.yaml
 replicaCount: 1
 image:
-  repository: localhost:5000/myaspapp
+  repository: teranova1944/general
   tag: latest
