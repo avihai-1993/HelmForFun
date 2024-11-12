@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: redis/redisinsight
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8001
+  nodePort: 30040  # Customize as needed
+
+resources: {}
